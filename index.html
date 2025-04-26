@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1C83E5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sahilfolio.live/assets/img/Portfolio%20Favicon.ico">
+
+    <link rel="icon" href="https://sahilfolio.live/assets/img/Portfolio%20Favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Sneha's Portfolio</title>
+
+    <script>
+        // Detect if the environment is production (you can modify this check)
+        var isProduction = location.hostname !== "localhost" && !location.hostname.includes("127.0.0.1");
+
+        if (isProduction) {
+            console.error = function () { };
+            console.warn = function () { };
+            window.onerror = function () {
+                return true; // Suppress all errors
+            };
+            window.addEventListener("error", function (event) {
+                event.preventDefault(); // Prevents error messages from being logged
+            }, true);
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <!-- <a href="" class="nav__logo">Try <b>npx sahil-npx</b> in your terminal!</a> -->
+                <!-- <a href="" class="nav__logo"><b>Run <span style="color: #ffcc00;">npx sahil-npx</span> on CMD!</b></a> -->
+                <!-- <a href="" class="nav__logo"> Run <span class="home__title-color">npx sahil-cli</span> on CMD </a> -->
+                <!--            <a href="" class="nav__logo"> <b>Want to see something cool? <span class="  home__title-color">Run npx sahil-npx</span> on CMD! 🚀</b> </a> -->
+                <!-- <a href="" class="nav__logo">
+    <span style="font-family: 'Courier New', monospace; color: #0f0;">> npx sahil-cli</span>
+</a> -->
+
+
+                <!--                 <a href="https://www.npmjs.com/package/sahil-cli" target="_blank" class="nav__logo">
+                    <span style="font-family: 'Courier New', monospace; color: #0f0;">> npx sahil-cli</span>
+                    <span class="cursor"></span>
+                </a> -->
+
+
+                <!-- <a href="https://www.npmjs.com/package/sahil-cli" target="_blank" class="nav__logo">
+                    <span style="font-family: 'Courier New', monospace; color: #209cee;">> npx sahil-cli</span>
+                    <span class="cursor"></span>
+                </a> -->
+
+
+
+
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skill" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work Experience</a></li> 
+                    <!-- <li class="nav__item"><a href="#codingprofile" class="nav__link">Coding Profiles</a></li> -->
+                    <!-- <li class="nav__item"><a href="#blogs" class="nav__link">Articles</a></li> -->
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-dots-horizontal-rounded'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!--===== HOME =====-->
+        <script src="https://cdn.jsdelivr.net/gh/mattboldt/typed.js@2.0.11/lib/typed.min.js"></script>
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <br></br>
+                <h1 class="home__title">
+                    Hi,<br>I'm <span class="home__title-color">Sneha,</span><br>
+                    <div id="typed-strings">
+                        <p>Aspiring Data Analyst,</p>
+                        <p>Driven by data,</p>
+                        <p>DSA Enthusiast,</p>
+                        <p>Curious Tech Explorer,</p>
+                        <p>ML Learner & Analyzer,</p>
+                        <p>Defence Brat.</p>
+                        <!-- <p>Leadership Trait</p>
+                        <p>MERN Stack Developer</p>
+                        <p>Problem solving</p>
+                        <p>Defence Brat</p> -->
+                        <!-- <p>ML Enthusiast,</p>
+                        <p>Cloud Practitioner,</p>
+                        <p>MERN Stack Developer,</p>    
+                        <p>UI/UX Designer,</p>
+                        <p>Swimming Athelete,</p>
+                        <p>Volleyball Player,</p>
+                        <p>Leadership Trait.</p> -->
+                    </div>
+                    <span id="typed"></span>
+                </h1>
+
+                <a href="sneharesume.html" target="_blank" class="button">Resume</a>
+
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/sneha-roy-a06427288/" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://x.com/Sneha0450767317" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/Sneha-roy2374" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-github'></i></a>
+                <!--                 <a href="https://leetcode.com/u/sa_hilll94/" class="home__social-icon" target="_blank"><img
+                        src="assets/img/Leetcode.png" width="20"> -->
+                </a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <circle cx="65%" cy="50%" r="30%" fill="white" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <image class="home__blob-img" x="10" y="90" width="500" height="300" href="assets/img/sneha1.png"
+                            alt="Home Component Image of Sahil" />
+
+                    </g>
+                </svg>
+            </div>
+
+        </section>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <br></br>
+                    <img src="assets/img/5.jpg" alt="About Component Image of Sahil behind a AWS Event Banner">
+                </div>
+
+                <div>
+                    <h1 class="about__subtitle">Sneha Singh</h1>
+                    <p class="about__text" style="text-align: justify;">
+                        A passionate Computer Science and Engineering student currently in my third year at Chandigarh Engineering College. Being raised in an Air Force family, I had the opportunity to experience life across multiple cities including Hyderabad, Chennai, and Jamnagar, attending various defence schools throughout my academic journey. These frequent relocations instilled in me a strong sense of adaptability, discipline, and an appreciation for diverse perspectives.
+                    </p>
+                    <p class="about__text" style="text-align: justify;">
+                        Initially inclined towards a career in defense, I eventually discovered a deep interest in technology. What began as solving simple coding problems gradually turned into a genuine passion for understanding how systems work—often by taking them apart and learning through debugging. This curiosity, combined with my problem-solving mindset, helped me realize that the dynamic and ever-evolving world of technology was where I truly belonged.
+                    </p>
+                    <p class="about__text" style="text-align: justify;">
+                        At college, I actively engage in leadership and technical roles. I have coordinated high-impact events such as the Smart India Hackathon and participated in multiple technical competitions, consistently reaching advanced selection stages. These experiences have significantly enhanced my analytical thinking, strategic planning, and ability to work effectively under pressure.
+                    </p>
+                    <p class="about__text" style="text-align: justify;">
+                        Beyond academics, I enjoy dancing and traveling—activities that allow me to refresh my perspective and approach problems with renewed creativity. My blend of technical proficiency, adaptability, and strong interpersonal skills positions me well for challenging roles in fast-paced, collaborative environments.
+                    </p>
+                </div>
+                
+        </section>
+        <br></br>
+        <br></br>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skill">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text" style="text-align: justify ;">I possess a strong foundation in core Computer Science principles and have developed proficiency in programming languages such as Python, SQL, C, and C++. Currently, I am expanding my expertise in data analysis and visualization, consistently working on real-world projects to enhance my practical skills in handling, interpreting, and presenting data-driven insights.
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/C++.png" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">C++ Language</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/Python logo.png" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Python</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/js.svg" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/html5.svg" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <!-- <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/node.svg" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Node.js</span>
+                        </div>
+                    </div> -->
+                    <!-- <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/react.svg" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">React.js</span>
+                        </div>
+                    </div> -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/mysql-4.svg" width="20" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">MySQL</span>
+                        </div>
+                    </div>
+                    <!-- <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/mongodb-icon.svg" width="20" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">MongoDB</span>
+                        </div>
+                    </div> -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/git-icon.svg" width="20" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Git</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/github.svg" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">GitHub</span>
+                        </div>
+                    </div>
+                    <!-- <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/expressjs-ar21.svg" width="30" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Express.js</span>
+                        </div>
+                    </div> -->
+                    <!-- <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/aws.svg" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Amazon Web Services</span>
+                        </div>
+                    </div> -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/visual-studio-code-1.svg" width="20" alt="Python Logo"
+                                class="skills__icon">
+                            <span class="skills__name">Visual Studio Code</span>
+                        </div>
+                    </div>
+                    <!-- <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/postman.svg" width="20" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Postman</span>
+                        </div>
+                    </div> -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/jupyter-icon.svg" width="20" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Jupyter Notebook</span>
+                        </div>
+                    </div>
+                    <!-- <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="assets/img/bash-2.svg" width="20" alt="Python Logo" class="skills__icon">
+                            <span class="skills__name">Bash</span>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div>
+                    <img src="assets/img/12.png"
+                        alt="Skills Component Image of Sahil explaining about Machine Learning in a hackathon."
+                        class="skills__img">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!--===== WORK EXPERIENCE =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="Expe__container bd-grid">
+
+                <div>
+                    <div class="works__data">
+                        <div class="skills__names">
+                            <!-- <a href="https://www.codezillaclub.tech/" target="_blank">
+                                <img src="assets/img/external.png" alt="Codezilla Logo" class="skills__icon">
+                            </a> -->
+                            <div class="Exp__container" class="about__text">
+                                <h1>TECH RODIES| CGC IT DEPARTMENT</h1>
+                                <h3>chief advisor</h3>
+                                <h4>April 2023- march 2024</h4>
+                                <p style="text-align: justify;">As the Chief Advisor of tech rodies, I work closely with the student leaders to support the club’s vision, growth, and day-to-day operations. I help guide strategic planning, budgeting, and event coordination, while also making sure everything we do aligns with the college’s values and policies. I serve as a mentor to the executive board, offering advice, encouragement, and continuity as student leadership changes over time. I also act as a bridge between the club and the college administration, helping students navigate processes and build strong, inclusive communities. My goal is to create a space where students feel empowered to lead, collaborate, and make a lasting impact.</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <br></br>
+
+                    <div> 
+                        <div class="works__data">
+                            <div class="skills__names">
+                                <!-- <a href="" target="_blank">
+                                    <img src="assets/img/external.png" alt="Codezilla Logo" class="skills__icon">
+                                </a> -->
+                                <div class="Exp__container" class="about__text">
+                                    <h1>PHOENIX CLUB | CSE CEC DEPARTMENT</h1>
+                                    <h3>TECHNICAL LEAD</h3>
+                                    <h4>January 2024- present</h4>
+                                    <p style="text-align: justify;">As the Technical Lead of Phoenix Club, I take the lead on managing and guiding the club’s technical initiatives, helping bring innovative ideas to life through hands-on projects and collaborative problem-solving. I work closely with the team to plan and execute workshops, develop tools, and ensure we’re using the right technologies to support our goals. My role is also about encouraging learning and experimentation, creating a space where members feel confident exploring new skills and pushing creative boundaries. I’m passionate about building things that matter and making sure our club grows not just in knowledge, but in impact.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br></br>
+
+                        <!-- <div>
+                            <div class="works__data">
+                                <div class="skills__names">
+                                    <a href="https://www.codezillaclub.tech/" target="_blank">
+                                        <img src="assets/img/external.png" alt="Codezilla Logo" class="skills__icon">
+                                    </a>
+                                    <div class="Exp__container" class="about__text">
+                                        <h1>CODEZILLA || MOZILLA COMMUNITY || OPEN SOURCE || SRM IST CLUB</h1>
+                                        <h3>Design Team Member</h3>
+                                        <h4>March 2023 - June 2024</h4>
+                                        <p style="text-align: justify;">As a Design Team member in our club, I
+                                            contributed to enhancing our social
+                                            media engagement by creating several Figma designs.</p>
+                                        <ul>
+                                            <li>• Created several Figma designs to enhance our social media engagement.
+                                            </li>
+                                            <li>• Organized events within the club to promote member participation and
+                                                growth.</li>
+                                            <li>• Designed promotional posters for club events to ensure effective
+                                                communication and outreach.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>  -->
+
+                            <br></br>
+
+                             <!-- <div>
+                                <div class="works__data">
+                                    <div class="skills__names">
+                                        <a href="https://www.linkedin.com/in/dsc-srm-ramapuram/" target="_blank">
+                                            <img src="assets/img/external.png" alt="Codezilla Logo"
+                                                class="skills__icon">
+                                        </a>
+                                        <div class="Exp__container" class="about__text">
+                                            <h1>GDSC SRMIST Ramapuram Campus</h1>
+                                            <h3>Design Team Member</h3>
+                                            <h4>October 2023 - January 2024</h4>
+                                            <p style="text-align: justify;">As a member of my club, I have gained
+                                                extensive experience in UI/UX
+                                                design using Figma and acquired foundational knowledge in machine
+                                                learning concepts through networking with fellow members.</p>
+                                            <ul>
+                                                <li>• Gained extensive experience in UI/UX design using Figma.</li>
+                                                <li>• Acquired foundational knowledge in machine learning concepts
+                                                    through networking with club members.</li>
+                                                <li>• Contributed design concepts for the creation of our club's
+                                                    website.</li>
+                                                <li>• Designed posters for the club's social media showcases.</li>
+                                                <li>• Conducted sessions on machine learning and computer science
+                                                    fundamentals.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>  -->
+                            </div>
+                        </div>
+        </section>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!-- CODING PROFILE SECTION -->
+        <!-- <section class="work section" id="codingprofile">
+
+            <h2 class="section-title">Coding Profiles</h2> -->
+
+            <!-- Leetcode Profile Stats -->
+            <!-- <div class="Expe__container bd-grid">
+                <div class="works__data">
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <img src="https://leetcard.jacoblin.cool/ishitasingh10?theme=dark&font=Encode%20Sans%20Semi%20Expanded&ext=heatmap"
+                            alt="LeetCode Profile Stats for Sahil" />
+                        <a class="coding-profile-link" href="https://leetcode.com/u/ishitasingh10/" target="_blank"
+                            rel="noopener noreferrer">
+                            View my LeetCode profile
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- GFG Profile Stats -->
+            <!-- <div class="Expe__container bd-grid">
+                <div class="works__data">
+                    <div style="text-align: center;">
+                        <img src="https://gfgstatscard.vercel.app/ishaaahxe?theme=dark"
+                            alt="GeeksforGeeks stats for Sahil" style="width: 500px; height: auto;" />
+                        <a class="coding-profile-link" href="https://www.geeksforgeeks.org/user/ishaaahxe/"
+                            target="_blank" rel="noopener noreferrer">
+                            View my GeeksforGeeks profile
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Codechef Profile Stats -->
+            <!-- <div class="Expe__container bd-grid">
+                <div class="works__data">
+                    <div style="text-align: center;">
+                        <img src="https://raw.githubusercontent.com/Sahilll94/Visualizer-for-CodeChef/main/src/main/java/com/ccvisualizer/ccvisualizer/output.svg"
+                            alt="CodeChef stats for Sahil" style="width: 500px; height: auto;" />
+                        <a class="coding-profile-link" href="https://www.codechef.com/users/sa_hilll94" target="_blank"
+                            rel="noopener noreferrer">
+                            View my CodeChef profile
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Codolio Profile Stats -->
+            <!-- <div class="Expe__container bd-grid">
+                <div class="works__data">
+                    <div style="text-align: center;">
+                        <img src="assets/img/codolio.png" alt="Codolio Tracker of Sahil"
+                            style="width: 300px; height: auto; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;" />
+                        <a class="coding-profile-link" href="https://codolio.com/profile/Sahilll94" target="_blank"
+                            rel="noopener noreferrer">
+                            View all my coding platform stats on Codolio
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+        <!-- </section> -->
+
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+        <!-- ARTICLES -->
+        <!-- <section class="Blogs section" id="blogs">
+            <h2 class="section-title">Articles</h2>
+            <div id="blog-container">
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        const blogContainer = document.getElementById('blog-container');
+                        const loadMoreButton = document.getElementById('load-more');
+                        const batchSize = 5; // Number of articles to load per batch
+                        let currentIndex = 0; // Index to keep track of loaded articles
+                        let articles = []; // Array to store all fetched articles                  
+
+                        fetch('https://rss.app/feeds/v1.1/sBW5zsnmNaVrK5bo.json')
+                            .then(response => response.json())
+                            .then(data => {
+                                articles = data.items;
+                                // console.log(data.items);
+                                loadArticles();
+                            })
+                            .catch(error => console.error('Error fetching Medium articles:', error));
+
+                        function loadArticles() {
+                            let html = '';
+                            const end = currentIndex + batchSize;
+                            const itemsToLoad = articles.slice(currentIndex, end);
+
+                            itemsToLoad.forEach(item => {
+                                const title = item.title;
+                                const link = item.url;
+                                const pubDate = new Date(item.date_published).toLocaleDateString('en-US', {
+                                    year: 'numeric',
+                                    month: 'short',
+                                    day: 'numeric'
+                                });
+                                const description = item.content_text;
+                                const trimmedDescription = description.length > 200 ? description.substring(0, 200) + '.........' : description;
+                                const image = item.image;
+
+                                html += `
+                            <div class="blog-post">
+                                ${image ? `<img src="${image}" alt="${title}" class="blog-image">` : ''}
+                                <h3>${title}</h3>
+                                <p style="text-align: justify">${trimmedDescription}</p>
+                                <a href="${link}" target="_blank">Read More</a>
+                                <p class="pub-date">Published on ${pubDate}</p>
+                            </div>
+                        `;
+                            });
+
+                            blogContainer.innerHTML += html;
+                            currentIndex += batchSize;
+
+                            if (currentIndex >= articles.length) {
+                                loadMoreButton.style.display = 'none'; // Hide button when all articles are loaded
+                            }
+                        }
+
+                        loadMoreButton.addEventListener('click', loadArticles);
+                    });
+                </script>
+            </div>
+            <a href="https://medium.com/@sa_hilll94" target="_blank">
+                <h3 id="blogss" style="text-align: center;">Click Here to Explore More Articles</h3>
+            </a>
+        </section>
+
+        <style>
+            .blog-image {
+                width: 100%;
+                /* You can adjust to a fixed width like 300px if preferred */
+                height: 200px;
+                /* Fixed height to keep images consistent */
+                object-fit: cover;
+                /* Ensures the image is properly cropped to fit the aspect ratio */
+                margin-bottom: 10px;
+                /* Adds space below the image */
+            }
+        </style> -->
+
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!--===== PROJECT SECTION =====-->
+        <section class="project section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects__container">
+
+
+
+                    <div class="project__card">
+                        <div class="project__image-container">
+                            <img class="project__image" src="assets/img/1.png" alt="ChatWithAI Project Preview"
+                                loading="lazy">
+                            <!-- <div class="project__overlay">
+                                <button class="project__overlay-btn" aria-label="View ChatWithAI Project"><a
+                                        href="https://github.com/Ishi-ta10/movie-recommendation-systems" target="_blank"
+                                        style="color: white; text-decoration: none;">View Project</a></button>
+                            </div> -->
+                        </div>
+                        <div class="project__title">
+                            <h3>sales forecasting dashboard</h3>
+                        </div>
+                        <div class="project__description">
+                            <p><b>sales forecasting dashboard</b>, is a dashboard provides a centralized view of critical sales metrics such as monthly and quarterly revenue projections, sales pipeline status, conversion rates, and comparisons to past performance.Using interactive charts, graphs, and key performance indicators (KPIs), it allows decision-makers to identify patterns, anticipate demand fluctuations, set realistic sales targets, and allocate resources more effectively. It often includes visualizations such as line graphs for trend analysis, bar charts for product or regional performance, and pie charts for market segmentation.
+                            </p>
+                        </div>
+                        <div class="project__tags">
+                            <span class="project__tag">HTML/CSS</span>
+                            <span class="project__tag">react.js</span>
+                            <span class="project__tag">javascript</span>
+                            <span class="project__tag">python</span>
+                            <span class="project__tag">node.js</span>
+                            <span class="project__tag">sql</span>
+                            <span class="project__tag">bi tools</span>
+                            <!-- <span class="project__tag">Vercel</span> -->
+                        </div>
+                        <!-- <div class="project__links">
+                            <a href="https://github.com/Ishi-ta10/movie-recommendation-system" class="project__link"
+                                target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://chatwithai.sahilfolio.live/" class="project__link" target="_blank">
+                                <i class='bx bxl-chrome'></i>
+                            </a>
+                        </div> -->
+                    </div>
+<!-- 
+
+                    <div class="project__card">
+                        <div class="project__image-container">
+                            <img class="project__image" src="assets/img/Dashboard.png"
+                                alt="Heap and Sort Project Preview" loading="lazy">
+                            <div class="project__overlay">
+                                <button class="project__overlay-btn" aria-label="View ChatWithAI Project"><a
+                                        href="https://github.com/Ishi-ta10/Jobs-and-Salaries-Dashboard" target="_blank"
+                                        style="color: white; text-decoration: none;">View Project</a></button>
+                            </div>
+                        </div>
+                        <div class="project__title">
+                            <h3>Salary Trends Dashboard</h3>
+                        </div>
+                        <div class="project__description">
+                            <p><b>Salary Trends Dashboard</b> using Tableau to visualize global data science salary
+                                trends by experience level, employment type, country, and job title. Integrated Mapbox
+                                for geographic salary mapping. Enabled users to quickly analyze salary distributions,
+                                company sizes, and employee demographics. Supported data-driven decisions for recruiters
+                                and job seekers.</p>
+                        </div>
+                        <div class="project__tags">
+                            <span class="project__tag">Tableau</span>
+                            <span class="project__tag">Mapping</span>
+                            <span class="project__tag">Data Preprocessing in R</span>
+                            <span class="project__tag">R libraries</span>
+                        </div>
+                     
+                    </div> -->
+
+
+                    <div class="project__card">
+                        <div class="project__image-container">
+                            <img class="project__image" src="assets/img/2.png" alt="Travel-Book Preview"
+                                loading="lazy">
+                            <!-- <div class="project__overlay">
+                                <button class="project__overlay-btn" aria-label="View Travel-Book Project"><a
+                                        href="https://ishi-ta10.github.io/Urban-Grocery/" target="_blank"
+                                        style="color: white; text-decoration: none;">View Project</a></button>
+                            </div> -->
+                        </div>
+                        <div class="project__title">
+                            <h3>social media sentiment analysis</h3>
+                        </div>
+                        <div class="project__description">
+                            <p><b>social media sentiment analysis</b>, involves the use of natural language processing (NLP), machine learning, and data analytics to evaluate and interpret the emotions and opinions expressed in social media content, such as tweets, Facebook posts, or YouTube comments. By analyzing whether the sentiment is positive, negative, or neutral, businesses can gain valuable insights into public perception about their brand, products, or services. This analysis helps in brand monitoring, market research, and customer service by identifying trends, consumer pain points, and areas for improvement. Tools and technologies like Python libraries (NLTK, TextBlob, spaCy), machine learning models (VADER, BERT), and APIs (Twitter API, Facebook Graph API) are commonly used to collect and process data. Ultimately, social media sentiment analysis empowers organizations to make informed decisions, measure the success of marketing campaigns, address customer concerns in real-time, and monitor competitors’ performance
+                            </p>
+                        </div>
+                        <div class="project__tags">
+                            <span class="project__tag">Python</span>
+                            <span class="project__tag">r</span>
+                            <span class="project__tag">JavaScript</span>
+                            <span class="project__tag">Java</span>
+                            <span class="project__tag">MySQL</span>
+                            <span class="project__tag">Power BI</span>
+                        </div>
+                        <!-- <div class="project__links">
+                            <a href="https://github.com/Ishi-ta10/Urban-Grocery" class="project__link" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://ishi-ta10.github.io/Urban-Grocery/" class="project__link" target="_blank">
+                                <i class='bx bxl-chrome'></i>
+                            </a>
+                        </div> -->
+                    </div>
+
+
+
+                    <div class="project__card">
+                        <div class="project__image-container">
+                            <img class="project__image" src="assets/img/healthcare.png"
+                                alt="Rajasthan Leap Project Preview" loading="lazy">
+                            <!-- <div class="project__overlay">
+                                <button class="project__overlay-btn" aria-label="View ChatWithAI Project"><a
+                                        href="https://github.com/Ishi-ta10/Health-Care-Dashboard" target="_blank"
+                                        style="color: white; text-decoration: none;">View Project</a></button>
+                            </div> -->
+                        </div>
+                        <div class="project__title">
+                            <h3>e-commerce website traffic</h3>
+                        </div>
+                        <div class="project__description">
+                            <p><b>e-commerce website traffic</b>, is the flow of visitors that come to your e-commerce site through various channels, such as organic search, paid advertising, social media, or direct visits. This traffic is a reflection of your website’s reach and the effectiveness of your marketing efforts. Understanding and analyzing this traffic helps you identify which channels are driving the most visits, what products or pages are most popular, and how users are interacting with your site. It’s not just about the number of visitors, but the quality of that traffic—such as conversion rates, bounce rates, and average session duration—that matters. By tracking these metrics, you can optimize your website’s performance, refine your digital marketing strategy, and ultimately drive more sales and improve customer engagement</p>
+                        </div>
+                        <div class="project__tags">
+                            <span class="project__tag">python</span>
+                            <span class="project__tag">JavaScript</span>
+                            <span class="project__tag">react.js<span>
+                        </div>
+                        <!-- <div class="project__links">
+                            <a href="https://github.com/Ishi-ta10/Health-Care-Dashboards" class="project__link"
+                                target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://job-portal-frontend-ju4r.vercel.app/" class="project__link"
+                                target="_blank">
+                                <i class='bx bxl-chrome'></i>
+                            </a>
+                        </div> -->
+                    </div>
+
+<!-- 
+
+                    <div class="project__card">
+                        <div class="project__image-container">
+                            <img class="project__image" src="assets/img/musicrecommend.png"
+                                alt="Expense Tracker Project Preview" loading="lazy">
+                            <div class="project__overlay">
+                                <button class="project__overlay-btn" aria-label="View ChatWithAI Project"><a
+                                        href="https://ca2musicrecommendation.streamlit.app/" target="_blank"
+                                        style="color: white; text-decoration: none;">View Project</a></button>
+                            </div>
+                        </div>
+                        <div class="project__title">
+                            <h3>Music Recommendation System</h3>
+                        </div>
+                        <div class="project__description">
+                            <p><b>Music Recommendation System</b>, Built a Music Recommendation System using Streamlit
+                                with a content-based approach powered by K-Nearest Neighbors (KNN). Preprocessed a
+                                Kaggle dataset of 170K+ songs by scaling audio features like danceability, energy, and
+                                tempo. The Streamlit app allows users to set preferences via sliders and receive 10
+                                similar song recommendations. Integrated custom UI elements, saved models using joblib,
+                                and prepared the project for deployment on platforms like Streamlit Cloud.</p>
+                            <div class="project__tags">
+                                <span class="project__tag">Python</span>
+                                <span class="project__tag">Machine Learning</span>
+                                <span class="project__tag">Data Science</span>
+                                <span class="project__tag">Streamlit</span>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="project__card">
+                        <div class="project__image-container">
+                            <img class="project__image" src="assets/img/devtrack.png" alt="DevTrack CLI Project Preview"
+                                loading="lazy">
+                            <div class="project__overlay">
+                                <button class="project__overlay-btn" aria-label="View DevTrack Project">
+                                    <a href="https://www.npmjs.com/package/devtrack-cli" target="_blank"
+                                        style="color: white; text-decoration: none;">View Project</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project__title">
+                            <h3>DevTrack</h3>
+                        </div>
+                        <div class="project__description">
+                            <p><b>DevTrack</b> is a simple and efficient CLI-based to-do list manager designed to
+                                streamline task management directly from the terminal. With intuitive commands, users
+                                can add, list, complete, and remove tasks seamlessly. Built using Node.js, it leverages
+                                file system storage to persist tasks without requiring a database. This project is ideal
+                                for developers who prefer a command-line workflow and need a lightweight task manager.
+                                Secure, fast, and easy to use, DevTrack enhances productivity while demonstrating best
+                                practices in CLI application development.</p>
+                        </div>
+                        <div class="project__tags">
+                            <span class="project__tag">CLI Application</span>
+                            <span class="project__tag">Node.js</span>
+                            <span class="project__tag">File System</span>
+                            <span class="project__tag">Chalk</span>
+                            <span class="project__tag">Inquirer.js</span>
+                            <span class="project__tag">Git</span>
+                            <span class="project__tag">GitHub</span>
+                            <span class="project__tag">NPM</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="https://github.com/Sahilll94/devtrack-cli" class="project__link" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://www.npmjs.com/package/devtrack-cli" class="project__link" target="_blank">
+                                <i class='bx bxl-chrome'></i>
+                            </a>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+        <br></br>
+        <br></br>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!-- CONTACT SECTION -->
+        <section class="project section" id="contact">
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Contact</h2>
+                        <hr>
+                    </div>
+                    <h1 class="contact__title">
+                        <div id="typed-string">
+                            <p>Let's Connect!</p>
+                            <p>Fill out the form below to send a message.</p>
+                        </div>
+                        <span id="type"></span>
+                    </h1>
+                    <!-- Hidden Access Key -->
+                    <input type="hidden" name="access_key" value="3ad86a33-a07c-4ca5-8052-9c7ac9024143">
+
+                    <!-- User Input Fields -->
+                    <input type="text" id="name" name="name" placeholder="YOUR FULL NAME" class="contact-inputs"
+                        required>
+                    <input type="email" name="email" placeholder="YOUR EMAIL ADDRESS" class="contact-inputs" required>
+
+                    <!-- Dynamic Subject Line -->
+                    <input type="hidden" id="dynamic-subject" name="subject" value="">
+                    <input type="text" name="subject" placeholder="SUBJECT OF YOUR MESSAGE" class="contact-inputs"
+                        required>
+
+                    <textarea name="message" placeholder="YOUR MESSAGE" class="contact-inputs"></textarea>
+
+
+                    <!-- Submit Button -->
+                    <button type="submit">Submit<img src="assets/img/Arrow.svg" alt=""></button>
+
+
+                    <!-- Redirect -->
+                    <input type="hidden" name="redirect" value="https://ishi-ta10.github.io/Ishita-singh/thankyou.html">
+                </form>
+            </div>
+        </section>
+
+        <script>
+            // Add event listener to update the hidden subject field dynamically
+            document.getElementById("name").addEventListener("input", function () {
+                const name = this.value.trim(); // Get the name input value
+                const subjectField = document.getElementById("dynamic-subject");
+                if (name) {
+                    subjectField.value = `${name} sent a message from ISHITA's PORTFOLIO , Subject : `;
+                } else {
+                    subjectField.value = ""; // Reset if no name is entered
+                }
+            });
+        </script>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Thank you for the Visit!</p>
+            <a href="https://maps.app.goo.gl/ooNxQmq1Z9HLCXzi7" target="_blank">
+                <p class="footer__Address"><i class="fa-solid fa-location-dot"></i> Address: CGC Landran is Chandigarh Group of Colleges, Sector 112, Sahibzada Ajit Singh Nagar, Kharar-Banur Highway, Landran, Punjab 140307, India.
+
+                    <a href="mailto:sneharoy2304@gmail.com">
+                        <p class="footer__Address"><i class="fa-solid fa-envelope"></i> sneharoy2304@gmail.com
+                    </a>
+                </p>
+                <a href="tel:+919173125439">
+                    <p class="footer__Address"><i class="fa-solid fa-phone"></i> +91 91731 25439
+                </a></p>
+                <div class="footer__social">
+                    <!-- <a href="https://www.instagram.com/sa_hilll94" class="footer__icon" target="_blank"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://medium.com/@sa_hilll94" class="footer__icon" target="_blank"><i
+                        class="fa-brands fa-medium"></i></a>
+                <a href="https://open.spotify.com/user/5kzseqwzfoywp5lp91va0g3x6?si=lMR8yGmRRI-GXSTUpOkZ-g&nd=1"
+                    class="footer__icon" target="_blank"><i class='bx bxl-spotify'></i></a> -->
+                </div>
+                <p class="footer__copy">&#169; Sneha . All rights reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
