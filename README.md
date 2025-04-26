@@ -1,4 +1,4 @@
-CHECK OUT THE PORTFOLIO BY CLICKING ON THE FOLLOWING LINK: [Portfolio link](https://sahilfolio.live/)
+CHECK OUT THE PORTFOLIO BY CLICKING ON THE FOLLOWING LINK: [Portfolio link](https://sneha-roy2374.github.io/sneha-singh/)
 
 - Responsive Portfolio Website made with HTML, CSS and JavaScript.
 - Contains animations while scrolling.
